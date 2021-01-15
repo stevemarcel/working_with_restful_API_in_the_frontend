@@ -1,0 +1,14 @@
+main {
+  min-height: 80vh;
+}
+
+.plug-logo {
+  max-height: 3rem;
+}
+
+.loader {
+  width: 100px;
+  height: 100px;
+  margin: auto;
+  display: block;
+}
