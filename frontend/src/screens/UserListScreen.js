@@ -11,12 +11,11 @@ const UserListScreen = () => {
 
   const userList = useSelector((state) => state.userList);
   const { loading, error, usersRecord } = userList;
-  
-  
+
   useEffect(() => {
     dispatch(listUsers());
   }, [dispatch]);
-  
+
   const profile = (usersRecord || {}).records;
   console.log(profile);
 
